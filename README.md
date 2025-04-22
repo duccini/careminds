@@ -16,6 +16,7 @@ bun dev
 
 ## Struture
 
+```
 src
 ├─ app
 │  ├─ globals.css
@@ -45,3 +46,4 @@ src
    ├─ countAssetsByType.ts
    ├─ formatters.ts
    └─ getTopPerformingAsset.ts
+```
