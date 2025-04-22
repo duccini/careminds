@@ -1,0 +1,36 @@
+.row {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cell {
+  padding: 1rem;
+  color: #1f2937;
+}
+
+.cellRight {
+  composes: cell;
+  text-align: right;
+}
+
+.cellCenter {
+  text-align: center;
+}
+
+.assetInfo {
+  display: flex;
+  align-items: center;
+  min-width: 0; /* para permitir truncamento */
+}
+
+.iconWrapper {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.symbol {
+  font-weight: 500;
+}
