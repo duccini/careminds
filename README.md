@@ -4,16 +4,15 @@
 
 ## Getting Started
 
-First, run the development server:
+The project was developed with the `v20.11.1` version of Node. More current versions do not work well with the Next.js version of the project, `v15.3.1`.
+
+To run the project:
 
 ```bash
+git clone git@github.com:duccini/careminds.git
+cd careminds
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 ## Struture
