@@ -15,7 +15,7 @@ bun dev
 ```
 
 ```
-📦 app
+src
 ├─ app
 │  ├─ globals.css
 │  ├─ layout.tsx
