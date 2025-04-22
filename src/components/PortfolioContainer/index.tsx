@@ -9,7 +9,7 @@ import styles from "./PortfolioContainer.module.css";
 import Card from "../Card";
 import { calculateGoalProgress } from "@/utils/calculateGoalProgress";
 import { countAssetsByType } from "@/utils/countAssetsByType";
-import { getTopPerformingAsset } from "@/utils/getTopPerformaingAsset";
+import { getTopPerformingAsset } from "@/utils/getTopPerformingAsset";
 
 interface PortfolioContainerProps {
   initialData: Wallet[];
