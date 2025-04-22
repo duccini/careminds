@@ -14,7 +14,8 @@ pnpm dev
 bun dev
 ```
 
-```
+## Struture
+
 src
 ├─ app
 │  ├─ globals.css
@@ -22,11 +23,25 @@ src
 │  ├─ page.module.css
 │  └─ page.tsx
 ├─ components
-│  └─ AssetRow
+│  ├─ AssetRow
+│  │  ├─ index.tsx
+│  │  └─ AssetRow.module.cs
+│  ├─ AssetTable
+│  │  ├─ index.tsx
+│  │  └─ AssetTable.module.css
+│  ├─ Card
+│  │  ├─ index.tsx
+│  │  └─ Card.module.css
+│  ├─ PortfolioContainer
+│  │  ├─ index.tsx
+│  │  └─ PortfolioContainer.css
+│  └─ WalletList
 │     ├─ index.tsx
-│     └─ AssetRow.module.css
+│     └─ WalletList.module.css
 ├─ services
 │  └─ getWallets.ts
 └─ utils
-   └─ calculateGoalProgress.ts
-```
+   ├─ calculateGoalProgress.ts
+   ├─ countAssetsByType.ts
+   ├─ formatters.ts
+   └─ getTopPerformingAsset.ts
