@@ -1,9 +1,9 @@
 [
   {
     "walletName": "Main Investment Account",
-    "currentAmount": 42000,
-    "spentAmount": 35000,
-    "profitLoss": 7000,
+    "currentAmount": 35000,
+    "spentAmount": 42000,
+    "profitLoss": -7000,
     "assets": [
       {
         "type": "stock",
@@ -29,8 +29,8 @@
         "image": "/microsoft.svg",
         "name": "Microsoft Corp.",
         "quantity": 8,
-        "purchasePrice": 250,
-        "currentPrice": 280
+        "purchasePrice": 450,
+        "currentPrice": 385
       },
       {
         "type": "crypto",
@@ -38,8 +38,8 @@
         "image": "/cardano.svg",
         "name": "Cardano",
         "quantity": 100,
-        "purchasePrice": 0.4,
-        "currentPrice": 0.55
+        "purchasePrice": 0.55,
+        "currentPrice": 0.4
       }
     ]
   },
@@ -64,8 +64,8 @@
         "image": "/solana.svg",
         "name": "Solana",
         "quantity": 30,
-        "purchasePrice": 20,
-        "currentPrice": 90
+        "purchasePrice": 250,
+        "currentPrice": 215
       },
       {
         "type": "crypto",
@@ -89,9 +89,9 @@
   },
   {
     "walletName": "Retirement Portfolio",
-    "currentAmount": 28000,
+    "currentAmount": 30000,
     "spentAmount": 25000,
-    "profitLoss": 3000,
+    "profitLoss": 5000,
     "assets": [
       {
         "type": "stock",
@@ -99,8 +99,8 @@
         "image": "/google.svg",
         "name": "Alphabet Inc.",
         "quantity": 6,
-        "purchasePrice": 120,
-        "currentPrice": 145
+        "purchasePrice": 145,
+        "currentPrice": 120
       },
       {
         "type": "stock",
@@ -109,7 +109,7 @@
         "name": "Tesla Inc.",
         "quantity": 4,
         "purchasePrice": 700,
-        "currentPrice": 730
+        "currentPrice": 500
       },
       {
         "type": "stock",

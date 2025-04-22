@@ -42,7 +42,7 @@ export default function WalletList({
                   {formatCurrency(wallet.currentAmount)}
                 </td>
                 <td className={styles.cellRight}>
-                  <span className={isProfit ? styles.profit : ""}>
+                  <span className={isProfit ? styles.profit : styles.loss}>
                     {formatCurrency(wallet.spentAmount)}
                   </span>
                 </td>

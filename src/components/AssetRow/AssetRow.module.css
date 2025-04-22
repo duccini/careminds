@@ -1,5 +1,5 @@
 .row {
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .cell {
@@ -33,4 +33,12 @@
 
 .symbol {
   font-weight: 500;
+}
+
+.profit {
+  color: var(--profit);
+}
+
+.loss {
+  color: var(--loss);
 }

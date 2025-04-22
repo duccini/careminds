@@ -1,14 +1,29 @@
-.main {
+.content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.contentHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+.header {
+  background: #1c2025;
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+
+  margin-bottom: 48px;
 }
 
 .title {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 2rem;
-  color: #1a1a1a;
+
+  color: #fafbfb;
 }
 
 .error {

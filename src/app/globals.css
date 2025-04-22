@@ -1,3 +1,12 @@
+:root {
+  --profit: #10b981;
+  --loss: #f87072;
+
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+  --white: white;
+}
+
 html,
 body {
   max-width: 100vw;

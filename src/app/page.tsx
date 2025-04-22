@@ -7,10 +7,18 @@ export default async function Home() {
     const walletData = await getWallets();
 
     return (
-      <main className={styles.main}>
-        <h1 className={styles.title}>Investment Portfolio</h1>
-        <PortfolioContainer initialData={walletData} />
-      </main>
+      <div>
+        <main>
+          <div className={styles.header}>
+            <div className={styles.contentHeader}>
+              <h1 className={styles.title}>Investment Portfolio</h1>
+            </div>
+          </div>
+          <div className={styles.content}>
+            <PortfolioContainer initialData={walletData} />
+          </div>
+        </main>
+      </div>
     );
   } catch (error) {
     return (

@@ -1,0 +1,44 @@
+.container {
+  height: 100%;
+  width: 180px;
+
+  padding: 16px;
+
+  border-radius: 16px;
+}
+
+.header {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #686868;
+}
+
+.content {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: #333333;
+}
+
+.profitLoss {
+  background-color: #f9f3de;
+}
+
+.goal {
+  background-color: #e3caa2;
+}
+
+.achieved {
+  background-color: #a1e491;
+}
+
+.profitAssets {
+  background-color: ;
+}
+
+.lossAssets {
+  background-color: #fe9fab;
+}
+
+.profiAssets {
+  background-color: #a1e491;
+}

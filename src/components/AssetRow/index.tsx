@@ -8,6 +8,8 @@ interface AssetRowProps {
 }
 
 export default function AssetRow({ asset }: AssetRowProps) {
+  const isProfit = asset.currentPrice > asset.purchasePrice;
+
   return (
     <tr className={styles.row}>
       <td className={styles.cell}>
@@ -21,7 +23,9 @@ export default function AssetRow({ asset }: AssetRowProps) {
       <td className={styles.cellCenter}>{asset.type}</td>
       <td className={styles.cellRight}>{asset.quantity}</td>
       <td className={styles.cellRight}>
-        {formatCurrency(asset.purchasePrice)}
+        <span className={isProfit ? styles.profit : styles.loss}>
+          {formatCurrency(asset.purchasePrice)}
+        </span>
       </td>
     </tr>
   );
