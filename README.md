@@ -1,6 +1,6 @@
 # Investment Portfolio
 
-![Investment Portfolio](https://github.com/duccini/careminds/overview.gif)
+![Investment Portfolio](https://github.com/duccini/careminds/blob/main/overview.gif)
 
 ## Getting Started
 
