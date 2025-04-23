@@ -18,20 +18,17 @@ The Investment Portfolio has three wallets with different investment purposes. T
   - **Declining Assets**: the quantity of assets that have decreased in value
   - **Best Asset**: the asset that had the highest percentage increase in value
 
-## Getting Started
+## Technologies and Concepts Used
 
-The project was developed with the `v20.11.1` version of Node. More current versions do not work well with the Next.js version of the project, `v15.3.1`.
+- Next.js 15
+- React
+- TypeScript
+- CSS Modules
+- Consume API
+- Single Responsiblity Principle - concept
+- Next.js "Islands Architecture" - concept
 
-To run the project:
-
-```bash
-git clone git@github.com:duccini/careminds.git
-cd careminds
-npm install
-npm run dev
-```
-
-## Struture
+## Project Struture
 
 ```
 src
@@ -63,4 +60,15 @@ src
    ├─ countAssetsByType.ts
    ├─ formatters.ts
    └─ getTopPerformingAsset.ts
+```
+
+## To run the project
+
+The project was developed with the `v20.11.1` version of Node. More current versions do not work well with the Next.js version of the project, `v15.3.1`.
+
+```bash
+git clone git@github.com:duccini/careminds.git
+cd careminds
+npm install
+npm run dev
 ```
