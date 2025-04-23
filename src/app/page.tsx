@@ -22,17 +22,25 @@ export default async function Home() {
     );
   } catch (error) {
     return (
-      <main className={styles.main}>
-        <h1 className={styles.title}>Investment Portfolio</h1>
-        <div className={styles.error}>
-          <h2>Error loading portfolio data</h2>
-          <p>
-            {error instanceof Error
-              ? error.message
-              : "An unknown error occurred"}
-          </p>
-        </div>
-      </main>
+      <div>
+        <main>
+          <div className={styles.header}>
+            <div className={styles.contentHeader}>
+              <h1 className={styles.title}>Investment Portfolio</h1>
+            </div>
+          </div>
+          <div className={styles.content}>
+            <div className={styles.error}>
+              <h2>Error loading portfolio data</h2>
+              <p>
+                {error instanceof Error
+                  ? error.message
+                  : "An unknown error occurred"}
+              </p>
+            </div>
+          </div>
+        </main>
+      </div>
     );
   }
 }

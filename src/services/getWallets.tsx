@@ -20,7 +20,8 @@ export async function getWallets(): Promise<Wallet[]> {
   try {
     const response = await fetch("http://localhost:3000/portfolio.json", {
       next: {
-        revalidate: 60,
+        //updated with each new request within 15 minutes
+        revalidate: 60 * 15,
       },
     });
 
