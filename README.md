@@ -4,19 +4,19 @@
 
 ## Overview
 
-The Investment Portfolio has three wallets with different investment purposes. The user selects the type of wallet in the "Wallets" section, and the assets that constitute this portfolio are displayed in the "Assets" section. Based on the available data `portfolio.json', the project was expanded with features delivering the greatest user value.
+The Investment Portfolio has three wallets with different investment purposes. The user selects the type of wallet in the "Wallets" section, and the assets that constitute this portfolio are displayed in the "Assets" section. Based on the available data `portfolio.json`, the project was expanded with features delivering the **greatest user value**.
 
-- Wallets:
+- Wallets
 
-  - Display of the gain or loss of the wallet
-  - Target: invested value \* 10
-  - Goal Progress: (currentAmount / goal) \* 100
+  - **Profit / Loss**: display of the gain or loss of the wallet
+  - **Goal**: invested value \* 10
+  - **Goal Progress**: (currentAmount / goal) \* 100
 
 - Assets
 
-  - Profitable Assets: the quantity of assets that increased in value
-  - Declining Assets: the quantity of assets that have decreased in value
-  - Best Asset: the asset that had the highest percentage increase in value
+  - **Profitable Assets**: the quantity of assets that increased in value
+  - **Declining Assets**: the quantity of assets that have decreased in value
+  - **Best Asset**: the asset that had the highest percentage increase in value
 
 ## Getting Started
 
